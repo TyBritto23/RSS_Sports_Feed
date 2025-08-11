@@ -1,0 +1,1 @@
+Basic documention on how to run and setup the project
