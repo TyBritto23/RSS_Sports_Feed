@@ -27,7 +27,8 @@ I made this to stay update with sports news without having to rely on social med
 - If you're using MacOS or Linux I would suggest using crontab (This is what I'm using) or use Task Scheduler on Windows.
 - If you are using crontab here's how you can set it up:
 ```
-crontab -e #this will open a vim text editor
+#this will open a vim text editor
+crontab -e
 
 # Paste this in the text editor and save, make sure you update the directories so they're correct
 0 8 * * * /home/yourname/projects/sports_digest/venv/bin/python /home/yourname/projects/sports_digest/main.py >> /home/yourname/projects/sports_digest/digest.log 2>&1
