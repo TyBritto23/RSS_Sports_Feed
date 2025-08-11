@@ -35,7 +35,6 @@ crontab -e
 
 ```
 - You can also use Cloud services such as GitHub Actions or [PythonAnywhere](https://www.pythonanywhere.com/)
-- 
 
 ---
 
