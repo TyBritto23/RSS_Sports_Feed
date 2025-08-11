@@ -25,7 +25,7 @@ I made this to stay update with sports news without having to rely on social med
 
 ## 2. Automating the Email
 - If you're using MacOS or Linux I would suggest using crontab (This is what I'm using) or use Task Scheduler on Windows.
-- If you are using crontab here's how you can set it up:
+- If you are using crontab here's how you can set it up in your terminal:
 ```
 #this will open a vim text editor
 crontab -e
